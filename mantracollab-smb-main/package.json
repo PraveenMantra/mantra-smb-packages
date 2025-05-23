@@ -1,0 +1,14 @@
+{
+  "name": "mantracollab-smb-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "mantracollab",
+    "mantra-smb",
+    "mantra-websites",
+    "mantra-templates",
+    "mantra-static"
+  ],
+  "author": "Harsh Lohana",
+  "license": "MIT"
+}
