@@ -1,0 +1,10 @@
+{
+    "name": "analytics-lambda",
+    "version": "1.0.0",
+    "description": "Lambda function to track analytics events to MongoDB",
+    "main": "index.js",
+    "dependencies": {
+        "mongodb": "^5.7.0",
+        "node-fetch": "^3.3.2"
+    }
+}
