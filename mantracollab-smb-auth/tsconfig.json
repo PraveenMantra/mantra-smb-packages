@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019", // Reasonable modern JS output
+    "module": "CommonJS", // Required for Node.js/npm compatibility
+    "declaration": true, // Generate .d.ts files for consumers
+    "outDir": "./dist", // Output directory
+    "rootDir": "./src", // Source directory
+    "strict": true, // Enables all strict type-checking
+    "esModuleInterop": true, // Allows `import x from 'x'` compatibility
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "mantracollab-smb-auth",
+  "version": "1.0.0",
+  "description": "Reusable phone/email OTP authentication module with Passport.js, AWS SNS/email, JWT, and MongoDB (Mongoose)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "otp",
+    "auth",
+    "passport",
+    "jwt",
+    "mongoose",
+    "typescript",
+    "aws-sns",
+    "email",
+    "sms"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.817.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.0.0",
+    "passport": "^0.7.0",
+    "passport-custom": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/passport": "^1.0.17",
+    "typescript": "^5.0.0"
+  }
+}
